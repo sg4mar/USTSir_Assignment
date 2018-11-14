@@ -52,4 +52,4 @@ int knapsack(int W, int weight[], int value[], int n)
 	return K[n][W]; 
 } 
 
-
+//Time Complexity: O(nW) where n is the number of items and W is the capacity of knapsack.
