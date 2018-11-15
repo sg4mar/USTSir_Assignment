@@ -51,6 +51,8 @@ int knapsack(int W, int weight[], int value[], int n)
 	return K[n][W]; 
 } 
 
+//Output is 1050 for the value taken in above code.
+
 //Time Complexity: O(nW) where n is the number of items and W is the capacity of knapsack.
 /*Procedure to Run Code in Vim Editor
 
