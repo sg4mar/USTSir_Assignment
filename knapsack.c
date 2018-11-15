@@ -55,7 +55,7 @@ int knapsack(int W, int weight[], int value[], int n)
 /*Procedure to Run Code in Vim Editor
 
 1- Save the file as it is in home directory in Mint OS.
-2- Open VI editor and enter command vi knapsack.c
+2- Open terminal and enter command vi knapsack.c.Exit then.
 3- Compile it using command gcc knapsack.c
 4- Enter Command ./a.out
 5- Output is displayed for default value given(here).
