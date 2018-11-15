@@ -8,7 +8,7 @@ int knapsack(int W, int weight[], int value[], int n);
 int main() 
 { 
 	int value[] = {50, 60, 200, 1000, 170}; 
-	int weight[] = {10, 20,40, 30}; 
+	int weight[] = {10,35, 20,40, 30}; 
 	int  W = 50; 
 	int n;
         n = sizeof(value)/sizeof(value[0]); 
@@ -52,3 +52,17 @@ int knapsack(int W, int weight[], int value[], int n)
 } 
 
 //Time Complexity: O(nW) where n is the number of items and W is the capacity of knapsack.
+/*Procedure to Run Code in Vim Editor
+
+1- Save the file as it is in home directory in Mint OS.
+2- Open VI editor and enter command vi knapsack.c
+3- Compile it using command gcc knapsack.c
+4- Enter Command ./a.out
+5- Output is displayed for default value given(here).
+*/
+
+
+
+
+
+
