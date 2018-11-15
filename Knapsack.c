@@ -7,7 +7,7 @@ int knapsack(int W, int weight[], int value[], int n);
 
 int main() 
 { 
-	int value[] = {50,60,200, 1000, 170}; 
+	int value[] = {50, 60, 200, 1000, 170}; 
 	int weight[] = {10, 20,40, 30}; 
 	int  W = 50; 
 	int n;
@@ -21,7 +21,6 @@ int maximum(int a, int b) {
 
 	if(a > b){
 		return a;
-
 	}
 	return b;
 
